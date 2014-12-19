@@ -12,7 +12,7 @@ Laat van puur genot een scheetje
 Op m'n boot hier met de Pieten,
 In de kajuit met een venkeltheetje (wat, wat)
 De patrijspoort staat op springen
-M'n papegaai begint te zingen
+Amerigo begint te zingen
 De legacy van "allemaal dingen"
 Ga ik nu toch echt verdringen
 
@@ -49,3 +49,9 @@ Neem ik 'r zo met me mee
 Avontuur op de boot
 Bij Sinterklaas op schoot
 Met de koffie aan het roer staan
+Prachtig in het avondrood
+
+Dat is hoe we rollen,
+De golven en ik
+En zij zal het ook wollen,
+Voor haar scheer ik zelfs m'n sik!

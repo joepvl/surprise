@@ -47,3 +47,7 @@ Sorry 'bout that rhyme
 I just had to combine
 Those two words in my mind
 And they came out, like the tide
+Of my imagination
+With my infatuation
+That's me, I'm Piet, I'm all about love
+I just don't know where to take it
