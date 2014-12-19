@@ -154,7 +154,7 @@ function setupWords(text) {
   var wordCollection = words.map(function(word, i) {
     return [word, word.length];
   });
-  console.log(wordCollection);
+  // console.log(wordCollection);
   return wordCollection;
 };
 function nextWord() {
