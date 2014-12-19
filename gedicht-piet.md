@@ -1,19 +1,18 @@
 Hey yo this is Piet,
 
 Yeah that's exactly how we do;
-Enter the mind of a guy
-Who spends his days with a roe
+Enter the mind of a guy who spends his days with a roe
 
-And I don't mean caviar or a kangaroo, my dear
-I mean the Dutch type you hit kids with
-When they've been bad for a year
+And I don't mean caviar or kangaroo, ain't no need to fear
+I mean the Dutch type you hit kids with when they've been bad for a year
 
-Basically, a torture device made out of twigs
-Let me reiterate this set of facts
+It's a torture device made from a bunch of twigs
+Let me recap that for you cats
 A sharp wooden tool for hitting kids
 Now who the heck came up with that?!
 
-This guy right here, with his big ol' staff
+This guy right here,
+With his big ol' staff
 That's the real nature of the Sint,
 And he does it for a laugh
 
@@ -47,7 +46,8 @@ Sorry 'bout that rhyme
 I just had to combine
 Those two words in my mind
 And they came out, like the tide
+
 Of my imagination
 With my infatuation
-That's me, I'm Piet, I'm all about love
+That's me, I'm Piet, I'm all about the love
 I just don't know where to take it
