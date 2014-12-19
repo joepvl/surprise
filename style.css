@@ -446,14 +446,17 @@ body {
   font-family: 'Varela', sans-serif;
   background-color: #699eb5;
   color: #d6c897;
+  transition: all 300ms ease;
 }
 body.sint {
   background-color: #7b1616;
   color: #ffd641;
+  transition: all 300ms ease;
 }
 body.piet {
   background-color: #322469;
-  color: #fad769
+  color: #fad769;
+  transition: all 300ms ease;
 }
 
 .page-container {
@@ -516,6 +519,7 @@ body.piet {
     font-family: 'Patrick Hand SC', sans-serif;
   }
   .piet .slide-text {
+    font-size: 30px;
     font-family: 'Permanent Marker', sans-serif;
   }
     .slide-text .highlighted {
