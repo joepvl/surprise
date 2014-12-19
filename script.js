@@ -56,7 +56,7 @@ $('.next-btn').addEventListener('click', function(event) {
 });
 document.addEventListener('keyup', function(e) {
   // console.log(e.keyCode);
-  if (e.keyCode == 32 || e.keyCode == 39) {
+  if (e.keyCode == 32 || e.keyCode == 39) { // space or right
     e.preventDefault();
     if (e.shiftKey == true) {
       prevSlide();
@@ -64,11 +64,14 @@ document.addEventListener('keyup', function(e) {
       nextSlide();
     }
   }
-  if (e.keyCode == 37) {
+  if (e.keyCode == 37) { // left
     prevSlide();
   }
-  if (e.keyCode == 83) {
+  if (e.keyCode == 83) { // S
     toggleScrolling();
+  }
+  if (e.keyCode == 72) { // H
+    toggleHighlights();
   }
 });
 
@@ -77,6 +80,9 @@ var currentIndex = 0,
     scrollIntervalRef,
     scrolling = false;;
 
+function toggleHighlights() {
+  document.body.classList.toggle('no-highlights');
+}
 function startScrolling() {
   scrollIntervalRef = setInterval(function() {
     scrollBy(0, 1);

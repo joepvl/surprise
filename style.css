@@ -521,6 +521,9 @@ body.piet {
     .slide-text .highlighted {
       color: #c0dfda
     }
+    .no-highlights .slide-text .highlighted {
+      color: inherit;
+    }
 
     .slide-text h1 {
       margin: 0;
