@@ -26,7 +26,7 @@ var slides = [
   "Enjoy",
   { poet: "sint" },
   " &nbsp;&nbsp;&nbsp;...many rap<br>&nbsp;&nbsp;so &nbsp;flow <br>wow",
-  "That was magnificent!"
+  "That was magnificent!",
   "And now, the answer!",
   { poet: "piet" },
   "OH SNAP!",
