@@ -129,7 +129,7 @@ function moveToSlide(index) {
   currentIndex = index;
   var slide = slides[index];
   if (typeof slide === "object") {
-    slideEl.innerHTML = poems[slide.poet].replace(/\n/g, '<br>');
+    slideEl.innerHTML = poems[slide.poet];
     transformLayout(slide.poet);
     startPlayback(slideEl.innerHTML);
   } else {
@@ -145,50 +145,32 @@ function prevSlide() {
   moveToSlide(currentIndex - 1);
 }
 
-var wordCounter = 0,
-    wordCollection = [],
-    wordTimeoutRef;
-function spanifyWords(text) {
-  var wrappedWords = text
-                    .replace(/(^|\n| )(\S)/g, '$1<span>$2')
-                    .replace(/(\S)($|\n| )/g, '$1</span>$2')
-                    .replace(/\n/g, '<br>');
-  return wrappedWords;
+function spanifyLetters(text) {
+  var wrappedLetters = text
+                      .replace(/(\S)/g, '<span>$1</span>')
+                      .replace(/\n/g, '<br>');
+  return wrappedLetters;
 }
-function setupWords(text) {
-  var words = text.split(/\s+/);
-  var wordCollection = words.map(function(word, i) {
-    return [word, word.length];
-  });
-  // console.log(wordCollection);
-  return wordCollection;
-};
-function nextWord() {
-  wordTimeoutRef = setTimeout(function() {
-    highlightWordAt(wordCounter);
-    nextWord();
-  }, wordCollection[wordCounter][1] * 100);
-  wordCounter++;
+var letterTimeoutRef;
+function nextLetter() {
+  letterTimeoutRef = setTimeout(function() {
+    highlightNextLetter();
+    nextLetter();
+  }, 90);
 }
-function resetWords() {
-  wordCounter = 0;
-  wordCollection = [];
-  clearTimeout(wordTimeoutRef);
-}
-function highlightWordAt(index) {
+function highlightNextLetter() {
   $('.slide-text span:not(.highlighted)').classList.add('highlighted');
 }
 
 function startPlayback(text) {
   startScrolling();
-  wordCollection = setupWords(text);
-  slideEl.innerHTML = spanifyWords(text);
-  nextWord();
+  slideEl.innerHTML = spanifyLetters(text);
+  nextLetter();
 }
 function stopPlayback() {
+  clearTimeout(letterTimeoutRef);
   stopScrolling();
   scroll(0, 0);
-  resetWords();
 }
 
 // init
